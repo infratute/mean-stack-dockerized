@@ -7,7 +7,7 @@ services:
 
   server:
     build: .
-    image: sanjaysaini2000/meanstack_backend
+    image: infratute/meanstack_backend
     ports:
       - '3000:3000'
     links:
@@ -15,6 +15,6 @@ services:
 
   client:
     build: client
-    image: sanjaysaini2000/meanstack_frontend
+    image: infratute/meanstack_frontend
     ports:
       - '80:80'
